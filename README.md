@@ -5,7 +5,7 @@ This demo shows how to upload images using React, Paperclip, and AWS S3.
 - [application.rb](./config/application.rb)
 - [post.rb](./app/models/post.rb)
 - [_post.json.jbuilder](./app/views/api/posts/_post.json.jbuilder)
-- [posts_controller.b](./app/controllers/api/posts_controller.rb)
+- [posts_controller.rb](./app/controllers/api/posts_controller.rb)
 - [posts_store.js](./app/assets/javascripts/stores/posts_store.js)
 - [api_util.js](./app/assets/javascripts/util/api_util.js)
 - [post_form.js.jsx](./app/assets/javascripts/components/post_form.js.jsx)

@@ -13,7 +13,7 @@
               <input type="text" onChange={this.changeTitle} value={this.state.title} />
             </label>
 
-            <input type="file" onChange={this.changeFile} value={this.state.image} />
+            <input type="file" onChange={this.changeFile} />
 
             <button>Submit</button>
           </form>
@@ -38,7 +38,7 @@
       if (file) {
         reader.readAsDataURL(file);
       } else {
-        that.updatePreview("");
+        this.setState({ imageUrl: "", imageFile: null });
       }
     },
 
